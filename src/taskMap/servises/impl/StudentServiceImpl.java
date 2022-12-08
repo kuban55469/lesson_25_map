@@ -48,7 +48,7 @@ public class StudentServiceImpl implements StudentService {
                             student.setMoney(student.getMoney().add(kanchaSom));
                             student1.setMoney(student1.getMoney().subtract(kanchaSom));
                             return "Эртен созсуз бер!!";
-                        } else if (r < 0) {
+                        } else  {
                             return "Анча акчам жок!!";
                         }
                     }

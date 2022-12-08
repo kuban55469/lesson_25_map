@@ -46,7 +46,8 @@ public class Main {
                 }
                 case 5 -> {
                     System.out.println("Enter name: ");
-                    System.out.println(student.findByName(scanner1.nextLine(), students));
+                    String name = scanner1.nextLine();
+                    System.out.println(student.findByName(name, students));
                 }
                 default -> System.out.println("Ввдите цифры от 1 до 5 !!!");
             }
